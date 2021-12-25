@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         tankAnchor?.actions.actionComplete.onAction = { _ in
             self.isActionPlaying = false
         }
-        // Add the box anchor to the scene
         arView.scene.anchors.append(tankAnchor!)
     }
     
