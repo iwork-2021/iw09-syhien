@@ -70,6 +70,6 @@ class ViewController: UIViewController {
             return
         }
         isActionPlaying = true
-        tankAnchor?.notifications.tankRight.post()
+        tankAnchor?.notifications.turretRight.post()
     }
 }
