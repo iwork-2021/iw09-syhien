@@ -28,6 +28,9 @@
                                         <buttonConfiguration key="configuration" style="plain">
                                             <backgroundConfiguration key="background" image="CannonFire"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="fireTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5iY-bs-waG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAT-Pi-kEr">
                                         <rect key="frame" x="62.5" y="0.0" width="62" height="82"/>
@@ -35,6 +38,9 @@
                                         <buttonConfiguration key="configuration" style="plain">
                                             <backgroundConfiguration key="background" image="TankForward"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="forwardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbK-Fg-vKu"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxQ-pb-oIs">
                                         <rect key="frame" x="124.5" y="0.0" width="62" height="82"/>
@@ -42,6 +48,9 @@
                                         <buttonConfiguration key="configuration" style="plain">
                                             <backgroundConfiguration key="background" image="TankLeft"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tankLeftTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dHK-Ii-nIS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rb3-6i-HWa">
                                         <rect key="frame" x="186.5" y="0.0" width="62" height="82"/>
@@ -49,6 +58,9 @@
                                         <buttonConfiguration key="configuration" style="plain">
                                             <backgroundConfiguration key="background" image="TankRight"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="tankRightTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YN0-Ro-GPR"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kk8-AL-VVI">
                                         <rect key="frame" x="248.5" y="0.0" width="62" height="82"/>
@@ -56,6 +68,9 @@
                                         <buttonConfiguration key="configuration" style="plain">
                                             <backgroundConfiguration key="background" image="TurretLeft"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="turretLeftTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h9Y-A2-L7D"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="of1-yq-vTT">
                                         <rect key="frame" x="310.5" y="0.0" width="62.5" height="82"/>
@@ -63,6 +78,9 @@
                                         <buttonConfiguration key="configuration" style="plain">
                                             <backgroundConfiguration key="background" image="TurretRight"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="turretRightTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Mo-hk-8Gc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
