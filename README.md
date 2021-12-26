@@ -2,3 +2,7 @@
 # iw09 ARKit之坦克构造
 
 创建Augmented Reality App，利用提供的素材将坦克显示在真实世界中（通过摄像头），并实现坦克的前进、左转、右转，炮台的左转、右转、开火功能按钮，可供用户操作。
+
+[点此查看演示视频](https://www.bilibili.com/video/BV113411x7Bq/)
+
+[点此查看报告](report/report.md)
